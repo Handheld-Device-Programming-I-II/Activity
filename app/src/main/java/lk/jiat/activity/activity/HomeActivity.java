@@ -13,14 +13,14 @@ import lk.jiat.activity.R;
 public class HomeActivity extends AppCompatActivity {
 
     public HomeActivity(String name){
-        super(R.layout.activity_home);
+        super(R.layout.activity_home);  //only android x
     }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
-        setContentView(R.layout.activity_home);
+        //setContentView(R.layout.activity_home);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
