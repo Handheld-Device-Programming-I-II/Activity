@@ -13,7 +13,7 @@ import lk.jiat.activity.R;
 public class HomeActivity extends AppCompatActivity {
 
     public HomeActivity(String name){
-
+        super(R.layout.activity_home);
     }
 
     @Override
