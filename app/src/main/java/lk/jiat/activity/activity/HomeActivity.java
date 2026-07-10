@@ -12,6 +12,10 @@ import lk.jiat.activity.R;
 
 public class HomeActivity extends AppCompatActivity {
 
+    public HomeActivity(String name){
+
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
