@@ -1,6 +1,7 @@
 package lk.jiat.activity.activity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
@@ -24,6 +25,12 @@ public class HomeActivity extends AppCompatActivity {
         //setContentView(R.layout.activity_home);
 
         Button homeBtn = findViewById(R.id.homeBtn);
+        homeBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+            }
+        });
 
     }
 }
