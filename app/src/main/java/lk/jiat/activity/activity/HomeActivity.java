@@ -1,6 +1,7 @@
 package lk.jiat.activity.activity;
 
 import android.os.Bundle;
+import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.annotation.Nullable;
@@ -22,6 +23,7 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         //setContentView(R.layout.activity_home);
 
+        Button homeBtn = findViewById(R.id.homeBtn);
 
     }
 }
