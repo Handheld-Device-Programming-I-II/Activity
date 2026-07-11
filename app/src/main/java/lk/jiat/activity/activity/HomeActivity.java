@@ -31,6 +31,10 @@ public class HomeActivity extends AppCompatActivity {
 
             }
         });
-
     }
+    private void printLogStatement(){
+        System.out.println("INFO: My name is Kalhara");
+    }
+
+
 }
