@@ -13,7 +13,7 @@ import lk.jiat.activity.R;
 
 public class HomeActivity extends AppCompatActivity {
 
-    public HomeActivity(String name){
+    public HomeActivity(){
         super(R.layout.activity_home);  //only android x
     }
 
