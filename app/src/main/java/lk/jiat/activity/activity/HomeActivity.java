@@ -10,6 +10,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import lk.jiat.activity.R;
+import lk.jiat.activity.log.LogWriter;
 
 public class HomeActivity extends AppCompatActivity {
 
@@ -36,5 +37,6 @@ public class HomeActivity extends AppCompatActivity {
     private void printLogStatement(){
         //System.out.println("INFO: My name is Kalhara");
         //Log.i(TAG, "My Name is Kalhara");
+        LogWriter.writerInfoLog(this,"My name is Kalhara");
     }
 }
