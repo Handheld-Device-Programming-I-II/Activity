@@ -35,6 +35,6 @@ public class HomeActivity extends AppCompatActivity {
 
     private void printLogStatement(){
         //System.out.println("INFO: My name is Kalhara");
-        Log.i(HomeActivity.this.getClass().getName(),"My Name is Anjana");;
+        Log.i(TAG, "My Name is Kalhara");
     }
 }
