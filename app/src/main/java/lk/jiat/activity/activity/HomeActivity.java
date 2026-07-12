@@ -1,6 +1,8 @@
 package lk.jiat.activity.activity;
 
+import android.nfc.Tag;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 
@@ -29,6 +31,7 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     private void printLogStatement(){
-        System.out.println("INFO: My name is Kalhara");
+        //System.out.println("INFO: My name is Kalhara");
+        Log.i(HomeActivity.this.getClass().getName(),"My Name is Anjana");;
     }
 }
