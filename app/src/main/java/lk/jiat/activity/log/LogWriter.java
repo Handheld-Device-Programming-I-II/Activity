@@ -5,7 +5,7 @@ import android.util.Log;
 
 public class LogWriter {
 
-    public static void writerInfoLog(Context, String message){
-        Log.i(context, );
+    public static void writerInfoLog(Context context, String message){
+        Log.i(context.getClass().getSimpleName(), message);
     }
 }
