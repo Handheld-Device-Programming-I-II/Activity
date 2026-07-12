@@ -13,7 +13,7 @@ import lk.jiat.activity.R;
 
 public class HomeActivity extends AppCompatActivity {
 
-    private static final String TAG = HomeActivity.class.getName();
+    //private static final String TAG = HomeActivity.class.getName();
 
     public HomeActivity(){
         super(R.layout.activity_home);  //only android x
@@ -35,6 +35,6 @@ public class HomeActivity extends AppCompatActivity {
 
     private void printLogStatement(){
         //System.out.println("INFO: My name is Kalhara");
-        Log.i(TAG, "My Name is Kalhara");
+        //Log.i(TAG, "My Name is Kalhara");
     }
 }
