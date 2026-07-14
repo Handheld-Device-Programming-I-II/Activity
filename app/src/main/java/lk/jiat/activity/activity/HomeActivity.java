@@ -14,6 +14,8 @@ import lk.jiat.activity.log.LogWriter;
 
 public class HomeActivity extends AppCompatActivity {
 
+    private Button homeBtn;
+
     //private static final String TAG = HomeActivity.class.getName();
 
     public HomeActivity(){
@@ -25,7 +27,7 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         //setContentView(R.layout.activity_home);
 
-        Button homeBtn = findViewById(R.id.homeBtn);
+        homeBtn = findViewById(R.id.homeBtn);
         /*homeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
