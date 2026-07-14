@@ -28,6 +28,7 @@ public class HomeActivity extends AppCompatActivity {
         //setContentView(R.layout.activity_home);
 
         homeBtn = findViewById(R.id.homeBtn);
+
         /*homeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -46,6 +47,12 @@ public class HomeActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         LogWriter.writerInfoLog(this, "onResume()");
+        homeBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                printLogStatement();
+            }
+        });
     }
 
     private void printLogStatement(){
