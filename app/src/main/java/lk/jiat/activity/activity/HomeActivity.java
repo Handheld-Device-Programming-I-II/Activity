@@ -47,7 +47,7 @@ public class HomeActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        LogWriter.writerInfoLog(this, "onResume()");
+        LogWriter.writerInfoLog(this, "onResume() - 03");
         homeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
