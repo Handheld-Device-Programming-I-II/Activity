@@ -59,19 +59,19 @@ public class HomeActivity extends AppCompatActivity {
     @Override
     protected void onPause() {
         super.onPause();
-        LogWriter.writerInfoLog(this, "onPause - 04");
+        LogWriter.writerInfoLog(this, "onPause() - 04");
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        LogWriter.writerInfoLog(this, "onStop - 05");
+        LogWriter.writerInfoLog(this, "onStop() - 05");
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-
+        LogWriter.writerInfoLog(this, "onDestroy() - 06");
     }
 
     private void printLogStatement(){
