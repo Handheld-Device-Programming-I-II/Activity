@@ -26,12 +26,18 @@ public class HomeActivity extends AppCompatActivity {
         //setContentView(R.layout.activity_home);
 
         Button homeBtn = findViewById(R.id.homeBtn);
-        homeBtn.setOnClickListener(new View.OnClickListener() {
+        /*homeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 printLogStatement();
             }
-        });
+        });*/
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+
     }
 
     private void printLogStatement(){
