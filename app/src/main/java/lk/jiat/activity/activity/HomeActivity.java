@@ -40,6 +40,11 @@ public class HomeActivity extends AppCompatActivity {
         LogWriter.writerInfoLog(this,"onStart()");
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
+
     private void printLogStatement(){
         //System.out.println("INFO: My name is Kalhara");
         //Log.i(TAG, "My Name is Kalhara");
