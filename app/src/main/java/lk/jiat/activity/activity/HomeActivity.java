@@ -28,6 +28,7 @@ public class HomeActivity extends AppCompatActivity {
         //setContentView(R.layout.activity_home);
 
         homeBtn = findViewById(R.id.homeBtn);
+        LogWriter.writerInfoLog(this,"onCreate - 01");
 
         /*homeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
