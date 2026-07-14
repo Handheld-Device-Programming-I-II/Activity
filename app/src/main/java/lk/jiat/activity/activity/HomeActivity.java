@@ -43,6 +43,7 @@ public class HomeActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
+        LogWriter.writerInfoLog(this, "onResume()");
     }
 
     private void printLogStatement(){
