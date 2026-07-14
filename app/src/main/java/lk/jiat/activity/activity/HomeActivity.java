@@ -37,7 +37,7 @@ public class HomeActivity extends AppCompatActivity {
     @Override
     protected void onStart() {
         super.onStart();
-
+        LogWriter.writerInfoLog(this,"onStart()");
     }
 
     private void printLogStatement(){
