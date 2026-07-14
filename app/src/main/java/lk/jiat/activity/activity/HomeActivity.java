@@ -65,6 +65,7 @@ public class HomeActivity extends AppCompatActivity {
     @Override
     protected void onStop() {
         super.onStop();
+        LogWriter.writerInfoLog(this, "onStop - 05");
     }
 
     private void printLogStatement(){
