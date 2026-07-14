@@ -56,6 +56,12 @@ public class HomeActivity extends AppCompatActivity {
         });
     }
 
+    @Override
+    protected void onPause() {
+        super.onPause();
+
+    }
+
     private void printLogStatement(){
         //System.out.println("INFO: My name is Kalhara");
         //Log.i(TAG, "My Name is Kalhara");
