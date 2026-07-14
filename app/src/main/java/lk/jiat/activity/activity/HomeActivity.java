@@ -68,6 +68,12 @@ public class HomeActivity extends AppCompatActivity {
         LogWriter.writerInfoLog(this, "onStop - 05");
     }
 
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+
+    }
+
     private void printLogStatement(){
         //System.out.println("INFO: My name is Kalhara");
         //Log.i(TAG, "My Name is Kalhara");
